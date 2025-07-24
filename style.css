@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+.game-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+#country-image {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-btn {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#timer, #score {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
